@@ -1,0 +1,28 @@
+//Escreva um programa que leia o nome do funcionário, o sexo (F ou M), o número de
+//matrícula do funcionário, o número de horas trabalhadas, o valor que recebe por hora
+//e calcule o salário desse funcionário. A seguir, mostre todos os dados na tela, os dados
+//de entrada e os dados de saída.
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+int main(){
+	char n[30], s[30];
+	int m, h, hp, v;
+	
+	printf("ola funcionario, primeiro preciso saber seu nome: ");
+	scanf("%s", &n);
+	printf("agora digite seu sexo (f) feminino (m) masculino: ");
+	scanf("%s", &s);
+	printf("digite o numero da sua matricula: ");
+	scanf("%d", &m);
+	printf("agora digite o numero de horas trabalhadas: ");
+	scanf("%d", &h);
+	printf("agora digite o quanto recebe por hora: ");
+	scanf("%d", &hp);
+	
+	(v = h * hp);	
+	
+	printf ("%d", v);
+}
