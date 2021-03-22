@@ -1,0 +1,17 @@
+//Construa um algoritmo que calcule a área de um círculo cujo raio é fornecido pelo
+//usuário (use área= 3.14 x raio2)
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+int main(){
+	float R, A;
+	printf("digite o raio do circulo: ");
+	scanf("%f", &R);
+	
+	A = R * 3.14;
+	
+	printf("a area do seu circulo e %f", A);
+
+}
