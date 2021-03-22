@@ -1,0 +1,17 @@
+//1. Construa um algoritmo que leia um número inteiro de horas e mostre ao usuário o
+//correspondente em minutos e segundos destas horas 
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+int main(){
+	float A, B, C;
+	printf("digite um numero em horas: ");
+	scanf("%f", &A);
+	
+	(B = A * 60);
+	(C = B * 60);
+	
+	printf("o valor %f da %f minutos e %f segundos", A, B, C);
+}
